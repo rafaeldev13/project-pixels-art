@@ -10,3 +10,13 @@ function divQuadrados() {
     }
 }
 divQuadrados();
+/* requisitos 6, seleciona a cor preta como inicial*/
+
+let colorSeleted = document.querySelector('.color');
+
+window.onload = function() {
+    function corInicial() {
+        colorSeleted.classList.add('selected');
+    }
+    corInicial();
+}
