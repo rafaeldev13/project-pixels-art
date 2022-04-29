@@ -30,6 +30,7 @@ margin: 30px;
     height: 40px;
     background-color: white;
     display: inline-block;
+    ;
 
 }
 /* Deixa os quadrados lado a lado em uma fila de 5x5*/
@@ -37,4 +38,6 @@ margin: 30px;
     width: 220px;
     height: 230px;
     margin-left: 120px; 
+    font-size: 0.1px;
+    
 }
