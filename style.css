@@ -41,3 +41,12 @@ margin: 30px;
     font-size: 0.1px;
     
 }
+
+#clear-board{
+    margin-left: 170px;
+    padding-bottom: 20px;
+}
+
+.selected {
+    background-color: #f4f0ec;
+  }
