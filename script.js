@@ -61,6 +61,8 @@ function escolherCores() {
     }); 
 }
 escolherCores();
+// Atributo getComputedStyle verificada pelo site: https://www.w3bai.com/pt/jsref/jsref_getcomputedstyle.html#:~:text=O%20getComputedStyle()%20m%C3%A9todo%20recebe,de%20v%C3%A1rias%20fontes%20foram%20apllied.
+
 
 // Funcão aprendida na aula de mentoria para fazer o jogo da velha realizada dia 28 de Abril, ministrada pelo Mestre Bruno Feu.
 function resetaOJogo() {
