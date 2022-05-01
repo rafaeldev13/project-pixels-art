@@ -20,6 +20,7 @@ window.onload = function () {
     corInicial();
 }
 /*Seleciona as cores a ser utilizada*/
+// Funcão aprendida na aula de mentoria para fazer o jogo da velha realizada dia 28 de Abril, ministrada pelo Mestre Bruno Feu.
 function escolherCores() {
     const buttonBlack = document.getElementsByClassName("color")[0]
     const buttonGreen = document.getElementsByClassName("color")[1]
@@ -61,4 +62,11 @@ function escolherCores() {
 }
 escolherCores();
 
-
+// Funcão aprendida na aula de mentoria para fazer o jogo da velha realizada dia 28 de Abril, ministrada pelo Mestre Bruno Feu.
+function resetaOJogo() {
+    const buttonReset = document.getElementById('clear-board')
+    buttonReset.addEventListener('click', function() {
+      document.location.reload(true) 
+  })
+  }
+  resetaOJogo();
